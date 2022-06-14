@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Photo Album</string>
+    <string name="album_name">Album name</string>
+    <string name="author">Author</string>
+</resources>
