@@ -1,3 +1,5 @@
+# Photo Album 
+
 L'ensemble du projet m'a pris environ 10 heures, dont la plupart ont été consacrées à la réflexion. Selon les exigences du projet, deux interfaces RecyclerView sont nécessaires, une affiche tous les albums et leurs auteurs. Un autre montrant toutes les photos de cet album. J'ai choisi l'architecture MVVM que je connais mieux. 
 
 L'application n'a qu'une seule activité, qui utilise des fragments pour afficher l'interface utilisateur et la navigation pour opérer les sauts entre eux. Le ViewModel est utilisé pour conserver les données liées aux éléments de l'interface utilisateur afin de garantir que ces données ne sont pas perdues lors de la rotation de l'écran et est responsable de la communication avec les données. Le Repository est utilisé pour mettre en cache les données du réseau, afin que les utilisateurs puissent continuer à accéder aux données mises en cache lorsqu'ils n'ont plus le réseau, afin d'assurer l'expérience utilisateur autant que possible.
